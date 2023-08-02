@@ -1,0 +1,14 @@
+public class SumOfNaturalNumbers {
+    public static void main(String[] args) {
+        int start = 5;
+        int end = 100;
+        
+        // Total count of numbers from start to end
+        int count = end - start + 1;
+
+        // Using the formula to calculate the sum of natural numbers
+        int sum = (count * (start + end)) / 2;
+
+        System.out.println("Sum of natural numbers from " + start + " to " + end + " is: " + sum);
+    }
+}
